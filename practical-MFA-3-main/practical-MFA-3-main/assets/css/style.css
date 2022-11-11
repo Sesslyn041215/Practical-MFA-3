@@ -1,0 +1,149 @@
+
+body{
+	margin:80px;
+ font-family: 'Kumbh Sans';
+
+}
+.header{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:space-between;
+    border-bottom:1px solid hsl(220, 14%, 75%);
+	
+}
+.navbar ul{
+	margin-right:500px;
+	  margin-top:0px;
+	
+}
+.navbar ul li{
+	display:inline;
+}
+.navbar li{
+	display:flex;
+	flex-direction:row;
+	padding:5px;	
+}
+.navbar li a{
+ 
+  color: hsl(219, 9%, 45%);
+  text-decoration:none;
+  font-size:20px;
+  padding:10px;
+}
+.logo{
+	margin-top:5px;
+	
+}
+.cart{
+	margin-top:10px;
+	margin-right:50px;
+}
+div .img{
+	height:40px;
+	width:40px;
+	padding-right:20px;
+	padding-bottom:10px;
+}
+.top{
+    display:flex;
+	flex-direction:row;
+    flex-wrap:nowrap;
+	justify-content:space-evenly;
+	align-items:space-evenly;
+
+}
+.main-img{
+	margin-top:30px;
+	height:500px;
+	width:500px;
+	border-radius:10px;
+}
+.right{
+	padding-left:100px;
+	padding-right:80px;
+	padding-top:60px;
+}
+.company{
+	color: hsl(26, 100%, 55%);
+	font-size:20px;
+}
+.heading{
+	font-size:50px;
+	margin-top:5px;
+	margin-bottom:20px;
+}
+.article{
+	color:hsl(219, 9%, 45%);
+		
+}
+.amount{
+	display:inline;
+}
+.prize{
+	font-size:25px;
+}
+section.right button.btn-primary{
+	color: hsl(26, 100%, 55%);
+	background-color:hsl(25, 100%, 94%);
+	border:white;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+    padding-bottom:5px;
+	border-radius:5px;
+	margin:10px;
+	font-size:15px;
+}
+.discount{
+	font-size:15px;
+	padding-top:0px;
+	margin-top:0px;
+	color: hsl(220, 14%, 75%);
+}
+section .right button{
+	padding:1em;
+	border-color:transparent;
+	font-weight:bold;
+   font-size:100%;
+  
+}
+
+section .right button:nth-of-type(2){
+	margin-left:-0.32rem;
+	margin-right:-0.32rem;
+}
+section.right button.btn-secondary {
+	border-radius:5px;
+	border:transparent;
+	color:white;
+	background-color:hsl(26, 100%, 55%);
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin:10px;
+	
+}
+.down{
+	 display:flex;
+	flex-direction:row;
+    flex-wrap:nowrap;
+	justify-content:space-between;
+	align-items:space-between;
+}
+.down-img{
+	height:90px;
+    width:90px;
+	margin-top:30px;
+	border-radius:10px;
+	margin-left:20px;
+	margin-right:20px;
+	
+}
+.down a:hover{
+	border-color:hsl(26, 100%, 55%);
+}
+
